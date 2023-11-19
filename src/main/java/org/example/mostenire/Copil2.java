@@ -2,8 +2,9 @@ package org.example.mostenire;
 
 public class Copil2 extends Parinte{
 	public Copil2(String culoarePar, String culoareOchi) {
-		this.culoareOchi = culoareOchi;
-		this.culoarePar = culoarePar;
+		super(culoarePar, culoareOchi);
+//		this.culoareOchi = culoareOchi;
+//		this.culoarePar = culoarePar;
 	}
 
 	@Override
