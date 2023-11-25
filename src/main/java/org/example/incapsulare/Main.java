@@ -7,6 +7,12 @@ public class Main {
 //		am accesat direct proprietatea clasei => am incalcat incapsularea
 //		contCurent.balanta += 100;
 
+//		reflections API
+//		contCurent.balanta = 3000;
+
+		contCurent.setBalanta(3000);
+		contCurent.getBalanta();
+
 		contCurent.depunere(100);
 
 		contCurent.afiseazaBalanta();

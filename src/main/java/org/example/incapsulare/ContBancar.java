@@ -33,4 +33,12 @@ public class ContBancar {
 	private float calculeazaRata(int valoareImobil, int scor) {
 		return (float) ((valoareImobil / NR_DE_LUNI) / PROCENTAJ * scor);
 	}
+
+	public int getBalanta() {
+		return balanta;
+	}
+
+	public void setBalanta(int balanta) {
+		this.balanta = balanta;
+	}
 }
